@@ -5,7 +5,7 @@ import random
 pygame.init()
 catch_sound = pygame.mixer.Sound(r"C:\Users\User\AppData\Local\Programs\Python\Python313\catch.wav.mp3")
 drop_sound = pygame.mixer.Sound(r"C:\Users\User\AppData\Local\Programs\Python\Python313\drop.wav.mp3")
-bg = pygame.image.load(r"C:\game\nature.jpg.jpg")
+bg = pygame.image.load(r"C:\game\image.jpg.jpg")
 # Screen dimensions
 WIDTH = 800
 HEIGHT = 800
@@ -137,4 +137,5 @@ if game_over:
         game_over = False
     
 pygame.quit()
+
 
