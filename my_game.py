@@ -3,12 +3,12 @@ import random
 
 # Initialize Pygamebg
 pygame.init()
-catch_sound = pygame.mixer.Sound(r"C:\Users\User\AppData\Local\Programs\Python\Python313\catch.wav.mp3")
-drop_sound = pygame.mixer.Sound(r"C:\Users\User\AppData\Local\Programs\Python\Python313\drop.wav.mp3")
-bg = pygame.image.load(r"C:\game\image.jpg.jpg")
+catch_sound = pygame.mixer.Sound(r"C:/Users/ADMIN/Music/WhatsApp Audio 2025-09-21 at 09.19.53_35294b28.mp3")
+drop_sound = pygame.mixer.Sound(r"C:/Users/ADMIN/Music/WhatsApp Audio 2025-09-21 at 09.19.58_dafccb4f.mp3")
+bg = pygame.image.load(r"C:/Users/ADMIN/Music/WhatsApp Image 2025-12-07 at 16.00.52_7a4da6c8.jpg")
 # Screen dimensions
-WIDTH = 800
-HEIGHT = 800
+WIDTH = 700
+HEIGHT = 650
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Honor Score")
 pygame.display.set_caption("Catch the Falling ball")
@@ -137,5 +137,6 @@ if game_over:
         game_over = False
     
 pygame.quit()
+
 
 
